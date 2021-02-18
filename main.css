@@ -1,0 +1,210 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+:root {
+  --font: 'Philosopher', sans-serif;;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body{
+   font-family: var(--font);
+}
+
+header{
+    height: 100vh;
+    background-image: url(Images/hero.png);
+    background-size: cover;
+    padding: 3rem;
+    
+}
+nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #fcfcfc;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 5rem;
+}
+nav ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+nav ul li{
+   list-style: none;
+    padding: 0 2em;
+    font-size: 1.5em;
+     color: #fcfcfc;
+}
+a{
+    text-decoration: none;
+   
+}
+nav ul li:hover{
+    color: #0D4190;
+    cursor: pointer;
+}
+.main-section{
+    display: -ms-grid;
+    display: grid;
+     place-content: center;
+    padding: 8em 0;
+}
+.pic{
+    background-color: grey;
+    margin-left: 3.5em;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 4em;
+    padding: 0.5em 0;
+}
+.social{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.social img{
+    margin-right: 2em;
+    cursor: pointer;
+}
+h3{
+    text-align: center;
+    color: #fff;
+    padding: 1em 0;
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.about{
+    background-image: url(Images/about.png);
+    color: #E5EBF4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.about p{
+    margin: 3.5em;
+    padding: 1em;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.51);
+    text-align: justify;
+}
+.about img {
+    border-radius: 50%;
+    padding: 1em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.pic-article img{
+    width: 350px;
+    height: 250px;
+}
+article{
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: flex;
+       margin:1em 4em;
+}
+.holder{
+    width: 450px;
+    height: 100%;
+    margin-left: 1.5em;
+    padding: 2rem; 
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.21);
+}
+.date{
+   padding-bottom: 0.5em; 
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.61);
+}
+.title h3{
+    padding: 0.5em; 
+    color:black;
+}
+.text p{
+   color: rgba(0, 0, 0, 0.80);
+    text-align: left;
+    padding: 1em; 
+}
+button{
+    padding: 0.5em;
+    background-color: #0D4190;
+    border: #0D4190;
+    color:#fcfcfc;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #071c66;
+}
+footer{
+    background-image: url(Images/bottom.png);
+    max-height: 50vh;
+    padding: 2em;
+    
+}
+footer h3{
+    font-size: 2em;
+}
+.mail{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    text-align: center;
+}
+.mail img{
+    width: 40px;
+    height: 40px;
+}
+.mail p{
+    color: #fff;
+    padding: 0.75em;
+}
+
+@media screen and (max-width: 1024px){
+    .about img {
+    display: none;
+}
+    .main-section{
+    padding: 38em 0;
+}
+}
+
+@media screen and (max-width: 1440px){
+    .about img {
+    border-radius: 50%;
+    margin: 5em 2em 0 2em;
+    width: 450px;
+    height: 550px;
+}
+}
+
+
+
