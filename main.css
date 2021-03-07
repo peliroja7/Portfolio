@@ -195,6 +195,13 @@ footer h3{
     .main-section{
     padding: 38em 0;
 }
+  article{
+        flex-wrap: wrap;
+    }
+.holder{
+        margin: 1em auto;
+    }
+    
 }
 
 @media screen and (max-width: 1440px){
