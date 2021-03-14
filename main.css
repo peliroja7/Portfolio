@@ -211,6 +211,12 @@ footer h3{
     width: 450px;
     height: 550px;
 }
+  article{
+        margin: 1em 0;
+    }
+.holder{
+        margin-left:1em;
+    }
 }
 
 
